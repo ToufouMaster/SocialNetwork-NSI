@@ -1,0 +1,72 @@
+.screen {
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    width: 150px;
+    left: 50px;
+}
+
+.container_hotbar {
+    display: block;
+    background-color: aquamarine;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+
+.container_hotbar textarea {
+    background-color: aquamarine;
+    font-size: medium;
+    margin-top: inherit;
+    border: none;
+    max-width: 146px;
+    max-height: 4em;
+    resize: vertical;
+    text-align: center;
+    cursor: text;
+}
+
+.paper_container {
+    display: block;
+    background-color: white;
+    height: auto;
+}
+
+.paper_container h2 {
+    font-size: small;
+    margin-top: inherit;
+    line-height: 15px;
+    text-align: center;
+    text-justify: auto;
+    text-transform: capitalize;
+}
+
+.paper {
+    border: 1px solid black;
+}
+
+.check_task textarea {
+    background-color: white;
+    font-size: small;
+    margin-top: inherit;
+    border: none;
+    max-width: 120px;
+    height: 5em;
+    max-height: 5em;
+    resize: vertical;
+    text-align: center;
+}
+
+.check_task input {
+    vertical-align: top;
+}
